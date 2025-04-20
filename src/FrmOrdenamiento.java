@@ -90,7 +90,7 @@ public class FrmOrdenamiento extends JFrame {
         tbOrdenamiento.add(btnBuscar);
         tbOrdenamiento.add(txtBuscar);
         //Se agrego el boton de seleccion para verificar su tiempo
-        btnOrdenarSeleccion = new JButton("Ordenar Selección");
+        btnOrdenarSeleccion = new JButton("Selección");
         btnOrdenarSeleccion.setToolTipText("Ordenar por Selección");
         btnOrdenarSeleccion.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
@@ -99,7 +99,7 @@ public class FrmOrdenamiento extends JFrame {
         });
         tbOrdenamiento.add(btnOrdenarSeleccion);
         //Se agrego el boton de mezcla para verificar su tiempo
-        btnOrdenarMezcla = new JButton("Ordenar Mezcla");
+        btnOrdenarMezcla = new JButton("Mezcla");
         btnOrdenarMezcla.setToolTipText("Ordenar por Mezcla");
         btnOrdenarMezcla.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
